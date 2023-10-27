@@ -14,7 +14,7 @@ The workers are the clients of the vpn gcp vm and a local machine
 4- AWS access key and secret acess key 
 5- OS used: Ubuntu 22
 inside scripts you will find the documentation pages for each line
-####Step 0 
+#### Step 0 
 Clone this repo  
 ```  
 git clone https://github.com/devops-and-more/multi-cloud-kubernetes-cluster.git
