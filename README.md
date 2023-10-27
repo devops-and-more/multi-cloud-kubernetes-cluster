@@ -65,6 +65,10 @@ Initialize the cluster at the master(aws_ec2) using kubeadm (https://kubernetes.
 ```
 kubeadm init --control-plane-endpoint="[Private IP of the master]:6443" --upload-certs --apiserver-advertise-address=[Private IP of the master] --pod-network-cidr=10.96.0.0/16
 ```
+Run the commands in the output:
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
 join all other nodes using the join command ouput  
 ####Step 7 
 install weave https://www.weave.works/docs/net/latest/kubernetes/kube-addon/#-installation 
