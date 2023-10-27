@@ -11,7 +11,8 @@ The workers are the clients of the vpn gcp vm and a local machine
 1- AWS account is mandatory to create the vpn endpoint, a GCP account is necessary but not mandatory  
 2- Pre-deployed aws ec2:t2.micro not recomended (kubernetes requirements for cpu and memory) but it works if (--ignore-preflight-errors=Mem --ignore-preflight-errors=NumCpu) is specified in kubeadm init  
 3- Pre-deployed GCP instance necessary but not mandatory  
-4- AWS access key and secret acess key  
+4- AWS access key and secret acess key 
+5- OS used: Ubuntu 22
 inside scripts you will find the documentation pages for each line
 ####Step 0 
 Clone this repo  
