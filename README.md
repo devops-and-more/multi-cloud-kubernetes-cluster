@@ -18,6 +18,7 @@ inside scripts you will find the documentation pages for each line
 Clone this repo  
 ```  
 git clone https://github.com/devops-and-more/multi-cloud-kubernetes-cluster.git
+cd multi-cloud-kubernetes-cluster
 ```
 #### Step 1
 Generate the certificates/keys for server/client of the vpn endpoint using script1.sh, the script will upload them using aws cli wich will be installed by the script also, it will propmt your aws access/secret keys, make sure to use the region of your aws ec2  
