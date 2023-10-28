@@ -82,8 +82,8 @@ kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/we
 ### Test the cluster:
 Test the cluster by running an nginx pod, then expose it with ClusterIP service, then navigate with your browser to the ip of the service to see the nginx page
 ```
-kubectl run nginx --image nginx --port 8080 --expose
+kubectl run nginx --image nginx --port 80 --expose
 #grab the ip of the service
 kubectl get svc
-# navigate with your browser to that ip with the port 8080
+# navigate with your browser to that ip
 ```
