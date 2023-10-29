@@ -1,7 +1,8 @@
-# multi-cloud-kubernetes-cluster
+# Multi-cloud-kubernetes-cluster
 This is to create a multi-cloud cluster by kubeadm using aws client vpn endpoint to put all instances on the same network in order to secure the trafic
 The master is an aws ec2  
-The workers are the clients of the vpn gcp vm and a local machine  
+The workers are the clients of the vpn (gcp vm and a local machine)   
+You can watch my demo here: https://youtu.be/DVHbAWARFzI
 #### The infrastructure
 <p align="center">
   <img src="ifra.gif" width="600" title="hover text">
